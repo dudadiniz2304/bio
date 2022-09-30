@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    margin: 0px;
+    background-color: rgb(253, 133, 189);
+}
+
+#welcome {
+    background: linear-gradient(rgb(247, 111, 111) 0%, rgb(240, 155, 106) 100%);
+    width: 100%;
+    display: table;
+    padding: 100px 0;
+}
+
+#perfil {
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#imagemPerfil {
+    width: 20%;
+    border-radius: 20%;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.nome {
+    font-weight: 600;
+    font-size: 44px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#sobre {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#imagemPerfil {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.line {
+    width: 100px;
+    height: 6px;
+    background-color: aquamarine;
+    margin: 0 auto 30px;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top:10px;
+     width: 100%;
+    background-color: darksalmon;
+    z-index: 10;
+    cursor: pointer;
+}
+.item{
+    display: inline;
+    font-size: 20px;
+}
+.item a:hover{
+    background-color: rgb(255, 0, 43);
+}
